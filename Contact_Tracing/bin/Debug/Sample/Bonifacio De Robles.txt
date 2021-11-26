@@ -1,0 +1,13 @@
+FIRST NAME: Bonifacio
+LAST NAME: De Robles
+CONTACT NO.: 09482255536
+AGE: 23
+GENDER: Male
+ADDRESS: Brgy. Bagumbayan, Sta. Cruz Lagun
+FEVER: No
+COUGH: No
+COLDS: No
+SORE THROAT: No
+DIFFICULTY IN BREATHING: No
+DIARRHEA: No
+Have you had encounter with COVID-19 positive? : No

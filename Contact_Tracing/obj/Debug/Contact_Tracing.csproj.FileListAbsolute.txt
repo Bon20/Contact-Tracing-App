@@ -1,0 +1,10 @@
+C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\bin\Debug\Contact_Tracing.exe.config
+C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\bin\Debug\Contact_Tracing.exe
+C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\bin\Debug\Contact_Tracing.pdb
+C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tracing.csproj.AssemblyReference.cache
+C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tracing.Form1.resources
+C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tracing.Properties.Resources.resources
+C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tracing.csproj.GenerateResource.cache
+C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tracing.csproj.CoreCompileInputs.cache
+C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tracing.exe
+C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tracing.pdb
