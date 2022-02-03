@@ -13,7 +13,6 @@ namespace Contact_Tracing
 {
     public partial class Form1 : Form
     {
-        string Q1;
         public Form1()
         {
             InitializeComponent();
@@ -21,6 +20,13 @@ namespace Contact_Tracing
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             StreamWriter sw = new StreamWriter(Application.StartupPath + "\\Sample\\" + txtbxFirstName.Text + " " + txtbxLastName.Text + ".txt");
+            MessageBox.Show("Submitted!");
+            var datenow = DateTime.Now;
+
+            sw.WriteLine(datenow.ToLongDateString());
+            sw.WriteLine(datenow.ToShortTimeString());
+
+
             sw.WriteLine(lblFirstName.Text + " " + txtbxFirstName.Text);
             sw.WriteLine(lblLastName.Text + " " + txtbxLastName.Text);
             sw.WriteLine(lblContactNum.Text + " " + txtbxContactNum.Text);
@@ -33,6 +39,7 @@ namespace Contact_Tracing
             sw.WriteLine(lblSoreThroat.Text + " " + cbSoreThroat.Text);
             sw.WriteLine(lblDiffInBreathing.Text + " " + cbDiffInBreathing.Text);
             sw.WriteLine(lblDiarrhea.Text + " " + cbDiarrhea.Text);
+            
             if (radbutYes.Checked == true)
             {
                 sw.WriteLine(gbxQuestion1.Text + radbutYes.Text);
@@ -42,6 +49,27 @@ namespace Contact_Tracing
                 sw.WriteLine(gbxQuestion1.Text +" " + radbutNo.Text);
             }
             sw.Close();
+        }
+
+        private void btnVIewLIst_Click_1(object sender, EventArgs e)
+        {
+            Stream myStream;
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
+            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                if ((myStream = openFileDialog1.OpenFile()) != null)
+                {
+                    string strfilename = openFileDialog1.FileName;
+                    string filetext = File.ReadAllText(strfilename);
+                    RBbox1.Text = filetext;
+                }
+            }
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            RBbox1.Clear();
         }
     }
 }

@@ -1,0 +1,15 @@
+Thursday, 3 February 2022
+7:56 pm
+FIRST NAME: Bon
+LAST NAME: De Robles
+CONTACT NO.: 09567611615
+AGE: 23
+GENDER: Male
+ADDRESS: Brgy. Bagumbayan, Sta. Cruz Laguna
+FEVER: No
+COUGH: No
+COLDS: No
+SORE THROAT: No
+DIFFICULTY IN BREATHING: No
+DIARRHEA: No
+Have you had encounter with COVID-19 positive? : No

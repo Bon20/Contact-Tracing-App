@@ -8,3 +8,4 @@ C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tr
 C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tracing.csproj.CoreCompileInputs.cache
 C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tracing.exe
 C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tracing.pdb
+C:\Users\bmder\source\repos\Contact_Tracing\Contact_Tracing\obj\Debug\Contact_Tracing.UserControl1.resources

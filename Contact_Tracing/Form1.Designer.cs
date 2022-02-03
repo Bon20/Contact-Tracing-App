@@ -60,6 +60,9 @@ namespace Contact_Tracing
             this.radbutYes = new System.Windows.Forms.RadioButton();
             this.radbutNo = new System.Windows.Forms.RadioButton();
             this.gbxQuestion1 = new System.Windows.Forms.GroupBox();
+            this.btnVIewLIst = new System.Windows.Forms.Button();
+            this.RBbox1 = new System.Windows.Forms.RichTextBox();
+            this.btnClear = new System.Windows.Forms.Button();
             this.gbxQuestion1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -122,7 +125,7 @@ namespace Contact_Tracing
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblTitle.Location = new System.Drawing.Point(242, 22);
+            this.lblTitle.Location = new System.Drawing.Point(4, 9);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(323, 24);
             this.lblTitle.TabIndex = 2;
@@ -132,7 +135,7 @@ namespace Contact_Tracing
             // 
             this.lblSubhead.AutoSize = true;
             this.lblSubhead.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblSubhead.Location = new System.Drawing.Point(316, 46);
+            this.lblSubhead.Location = new System.Drawing.Point(77, 33);
             this.lblSubhead.Name = "lblSubhead";
             this.lblSubhead.Size = new System.Drawing.Size(137, 17);
             this.lblSubhead.TabIndex = 3;
@@ -211,7 +214,7 @@ namespace Contact_Tracing
             this.lblQuestion2.AutoSize = true;
             this.lblQuestion2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuestion2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblQuestion2.Location = new System.Drawing.Point(340, 94);
+            this.lblQuestion2.Location = new System.Drawing.Point(367, 15);
             this.lblQuestion2.Name = "lblQuestion2";
             this.lblQuestion2.Size = new System.Drawing.Size(409, 18);
             this.lblQuestion2.TabIndex = 9;
@@ -221,7 +224,7 @@ namespace Contact_Tracing
             // 
             this.lblFever.AutoSize = true;
             this.lblFever.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblFever.Location = new System.Drawing.Point(440, 136);
+            this.lblFever.Location = new System.Drawing.Point(486, 39);
             this.lblFever.Name = "lblFever";
             this.lblFever.Size = new System.Drawing.Size(57, 17);
             this.lblFever.TabIndex = 10;
@@ -231,7 +234,7 @@ namespace Contact_Tracing
             // 
             this.lblCough.AutoSize = true;
             this.lblCough.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblCough.Location = new System.Drawing.Point(434, 167);
+            this.lblCough.Location = new System.Drawing.Point(480, 70);
             this.lblCough.Name = "lblCough";
             this.lblCough.Size = new System.Drawing.Size(63, 17);
             this.lblCough.TabIndex = 10;
@@ -241,7 +244,7 @@ namespace Contact_Tracing
             // 
             this.lblColds.AutoSize = true;
             this.lblColds.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblColds.Location = new System.Drawing.Point(438, 196);
+            this.lblColds.Location = new System.Drawing.Point(484, 99);
             this.lblColds.Name = "lblColds";
             this.lblColds.Size = new System.Drawing.Size(59, 17);
             this.lblColds.TabIndex = 10;
@@ -251,7 +254,7 @@ namespace Contact_Tracing
             // 
             this.lblSoreThroat.AutoSize = true;
             this.lblSoreThroat.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblSoreThroat.Location = new System.Drawing.Point(384, 226);
+            this.lblSoreThroat.Location = new System.Drawing.Point(430, 129);
             this.lblSoreThroat.Name = "lblSoreThroat";
             this.lblSoreThroat.Size = new System.Drawing.Size(113, 17);
             this.lblSoreThroat.TabIndex = 10;
@@ -261,7 +264,7 @@ namespace Contact_Tracing
             // 
             this.lblDiffInBreathing.AutoSize = true;
             this.lblDiffInBreathing.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDiffInBreathing.Location = new System.Drawing.Point(307, 260);
+            this.lblDiffInBreathing.Location = new System.Drawing.Point(353, 163);
             this.lblDiffInBreathing.Name = "lblDiffInBreathing";
             this.lblDiffInBreathing.Size = new System.Drawing.Size(190, 17);
             this.lblDiffInBreathing.TabIndex = 10;
@@ -273,7 +276,7 @@ namespace Contact_Tracing
             this.cbFever.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cbFever.Location = new System.Drawing.Point(513, 133);
+            this.cbFever.Location = new System.Drawing.Point(559, 36);
             this.cbFever.Name = "cbFever";
             this.cbFever.Size = new System.Drawing.Size(121, 24);
             this.cbFever.TabIndex = 7;
@@ -284,7 +287,7 @@ namespace Contact_Tracing
             this.cbCough.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cbCough.Location = new System.Drawing.Point(513, 164);
+            this.cbCough.Location = new System.Drawing.Point(559, 67);
             this.cbCough.Name = "cbCough";
             this.cbCough.Size = new System.Drawing.Size(121, 24);
             this.cbCough.TabIndex = 8;
@@ -295,7 +298,7 @@ namespace Contact_Tracing
             this.cbColds.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cbColds.Location = new System.Drawing.Point(513, 193);
+            this.cbColds.Location = new System.Drawing.Point(559, 96);
             this.cbColds.Name = "cbColds";
             this.cbColds.Size = new System.Drawing.Size(121, 24);
             this.cbColds.TabIndex = 9;
@@ -306,7 +309,7 @@ namespace Contact_Tracing
             this.cbSoreThroat.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cbSoreThroat.Location = new System.Drawing.Point(513, 223);
+            this.cbSoreThroat.Location = new System.Drawing.Point(559, 126);
             this.cbSoreThroat.Name = "cbSoreThroat";
             this.cbSoreThroat.Size = new System.Drawing.Size(121, 24);
             this.cbSoreThroat.TabIndex = 10;
@@ -317,7 +320,7 @@ namespace Contact_Tracing
             this.cbDiffInBreathing.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cbDiffInBreathing.Location = new System.Drawing.Point(513, 257);
+            this.cbDiffInBreathing.Location = new System.Drawing.Point(559, 160);
             this.cbDiffInBreathing.Name = "cbDiffInBreathing";
             this.cbDiffInBreathing.Size = new System.Drawing.Size(121, 24);
             this.cbDiffInBreathing.TabIndex = 11;
@@ -328,7 +331,7 @@ namespace Contact_Tracing
             this.cbDiarrhea.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cbDiarrhea.Location = new System.Drawing.Point(513, 287);
+            this.cbDiarrhea.Location = new System.Drawing.Point(559, 190);
             this.cbDiarrhea.Name = "cbDiarrhea";
             this.cbDiarrhea.Size = new System.Drawing.Size(121, 24);
             this.cbDiarrhea.TabIndex = 12;
@@ -337,7 +340,7 @@ namespace Contact_Tracing
             // 
             this.lblDiarrhea.AutoSize = true;
             this.lblDiarrhea.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDiarrhea.Location = new System.Drawing.Point(415, 290);
+            this.lblDiarrhea.Location = new System.Drawing.Point(461, 193);
             this.lblDiarrhea.Name = "lblDiarrhea";
             this.lblDiarrhea.Size = new System.Drawing.Size(82, 17);
             this.lblDiarrhea.TabIndex = 10;
@@ -376,12 +379,43 @@ namespace Contact_Tracing
             this.gbxQuestion1.TabStop = false;
             this.gbxQuestion1.Text = "Have you had encounter with COVID-19 positive? :";
             // 
+            // btnVIewLIst
+            // 
+            this.btnVIewLIst.Location = new System.Drawing.Point(541, 382);
+            this.btnVIewLIst.Name = "btnVIewLIst";
+            this.btnVIewLIst.Size = new System.Drawing.Size(91, 45);
+            this.btnVIewLIst.TabIndex = 14;
+            this.btnVIewLIst.Text = "View List";
+            this.btnVIewLIst.UseVisualStyleBackColor = true;
+            this.btnVIewLIst.Click += new System.EventHandler(this.btnVIewLIst_Click_1);
+            // 
+            // RBbox1
+            // 
+            this.RBbox1.Location = new System.Drawing.Point(384, 232);
+            this.RBbox1.Name = "RBbox1";
+            this.RBbox1.Size = new System.Drawing.Size(382, 141);
+            this.RBbox1.TabIndex = 15;
+            this.RBbox1.Text = "";
+            // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(422, 382);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(91, 45);
+            this.btnClear.TabIndex = 16;
+            this.btnClear.Text = "Clear List";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SlateBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.RBbox1);
+            this.Controls.Add(this.btnVIewLIst);
             this.Controls.Add(this.gbxQuestion1);
             this.Controls.Add(this.cbDiarrhea);
             this.Controls.Add(this.cbDiffInBreathing);
@@ -454,6 +488,9 @@ namespace Contact_Tracing
         private System.Windows.Forms.RadioButton radbutYes;
         private System.Windows.Forms.RadioButton radbutNo;
         private System.Windows.Forms.GroupBox gbxQuestion1;
+        private System.Windows.Forms.Button btnVIewLIst;
+        private System.Windows.Forms.RichTextBox RBbox1;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 

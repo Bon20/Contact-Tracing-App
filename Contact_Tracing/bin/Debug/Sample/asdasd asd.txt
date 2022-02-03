@@ -1,0 +1,15 @@
+Thursday, 3 February 2022
+8:44 pm
+FIRST NAME: asdasd
+LAST NAME: asd
+CONTACT NO.: asd
+AGE: 22
+GENDER: Female
+ADDRESS: asdasd
+FEVER: No
+COUGH: No
+COLDS: Yes
+SORE THROAT: No
+DIFFICULTY IN BREATHING: Yes
+DIARRHEA: No
+Have you had encounter with COVID-19 positive? : No
